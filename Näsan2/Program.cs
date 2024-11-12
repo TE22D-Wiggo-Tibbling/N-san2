@@ -10,9 +10,12 @@ foreach (string leksak in strings2)
 Console.ReadLine();
 
 // Steg 3
-int[] ints = [1, 2, 3, 4, 5];
+string[] klasskamerater = ["bullen", "simon", "Rasmus", "adam", "elias"];
 
 // Steg 4
+int[] ints = [1, 2, 3, 4, 5];
+
+// Steg 5
 
 int[] ints2 = [1, 2, 3, 4, 5];
 
@@ -21,7 +24,7 @@ for (int i = 0; i < ints2.Length; i++)
     System.Console.WriteLine($"Pelle ger {strings2[i]} betyget {ints2[i]}");
 }
 
-// Steg 5
+// Steg 6
 
 List<string> cities = new();
 string awnser = "";
@@ -35,7 +38,7 @@ while (awnser.ToLower() != "exit")
     }
 }
 
-// Steg 6
+// Steg 7
 List<string> cities2 = new();
 string awnser2 = "";
 
